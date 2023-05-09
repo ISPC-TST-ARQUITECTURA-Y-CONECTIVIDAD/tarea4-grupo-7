@@ -5,7 +5,7 @@
 
 ![Caratula AyC - TP#4](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/6ea603a9-b18f-4781-a304-7f50de4642cf)
 
-# $\textcolor{blue}{TEAM:}$
+# $\textcolor{green}{TEAM:}$
 
 - [ARRIOLA, Dario Raul](https://github.com/dr-arriola)
 - [BAREA, Silvana](https://github.com/recursosssbb)
@@ -15,9 +15,9 @@
 - [TOLOZA, Alejandro](https://github.com/Alejandro-Toloza)
 
 
-# $$\textcolor{blue}{Tarea\ 4:}$$
+# $$\textcolor{green}{Tarea\ 4:}$$
 
-# $\textcolor{blue}{Módulo\ II:}$
+# $\textcolor{green}{Módulo\ II:}$
 
 # $\textcolor{red}{Familia\ de\ Protocolos\ IoT\ -\ II}$
 
@@ -30,7 +30,7 @@ con la documentación asociada si hiciera falta, y asignar los issues por
 integrante. De esta forma quedara documentada la colaboración de
 cada alumno.
 
-# $\textcolor{blue}{Cuestionario:}$
+# $\textcolor{green}{Cuestionario:}$
 
 
 - [x] (1) ¿Que es unacomunicacion REST?, Para que se usan?, Ejemplifique.
@@ -41,7 +41,7 @@ Cuales serian los campos minimos para hacer la implementacion?
 
 
 
-# $\textcolor{blue}{Bibliografia:}$
+# $\textcolor{green}{Bibliografia:}$
 
 
 Para el desarrollo de la actividad se realizaron consultas a las siguientes fuentes de informacion:
