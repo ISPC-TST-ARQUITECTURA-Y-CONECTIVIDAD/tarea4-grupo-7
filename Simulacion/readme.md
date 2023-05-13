@@ -9,8 +9,7 @@ Cuales serian los campos minimos para hacer la implementacion?
 
 # $$\textcolor{green}{Codigo\ :}$$
 
-//
-C++
+```C++
 //Se incluyen las librerias necesarias para que el codigo funcione correctamente
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -130,38 +129,62 @@ void loop() {
   client.publish("topicName/dht_ISPC_G7", jsonStr); // Publicar los datos en formato JSON
 }
 
+```
 
+# $\textcolor{green}{Simulacion\ en\ Wokwi:}$
 
-//
-
-
-# $\textcolor{green}{Módulo\ II:}$
-
-# $\textcolor{red}{Familia\ de\ Protocolos\ IoT\ -\ II}$
-
-Cada práctica se desarrollará en forma grupal, debiendo subir el
-desarrollo de la misma al repositorio (respetando la estructura de
-monorepositorio) establecido por grupo. Los ejercicios serán
-implementados de forma que a cada integrante le corresponda 1 o más
-tareas (issues); por lo que deberán crear el proyecto correspondiente,
-con la documentación asociada si hiciera falta, y asignar los issues por
-integrante. De esta forma quedara documentada la colaboración de
-cada alumno.
-
-# $\textcolor{green}{Cuestionario:}$
+https://wokwi.com/projects/364566222763822081
 
 
 
-- [x] (4)  Implementar un codigo JSON, para comunicar un sensor de temperatura y humedad con un Arduino Uno, simulando los mismos en Proteus.
-Cuales serian los campos minimos para hacer la implementacion?
+# $\textcolor{red}{Imagenes\ de\ la\ simulacion}$
+
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/787fec0b-8d88-481e-95ed-6b396e9cdfc0)
+
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/595dec60-2360-4a0e-af31-55c41e017ad6)
+
+
+# $\textcolor{green}{Vista\ suscripcion\ Broker\ MQTT:}$
+
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/f38133ec-55ee-4528-a1b2-bf6f88f114b6)
+
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/bbd3bc0f-1645-4c66-a839-bae0887965a0)
+
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-7/assets/46485082/a1e89c2a-268d-4a61-9c94-3b5d5b6ae067)
+
+
+- [x] Aplicacion MyMQTT
 
 
 
-# $\textcolor{green}{Bibliografia:}$
+# $\textcolor{green}{Conclusion:}$
+
+Resumen sobre las ventajas y desventajas de utilizar código JSON para el envío de datos:
+
+Ventajas de utilizar código JSON:
+
+- [x] Estructura de datos flexible:
+      JSON permite representar datos de manera estructurada y flexible, lo que facilita su manipulación y transmisión.
+      
+- [x] Legibilidad y facilidad de uso: 
+      JSON utiliza una sintaxis sencilla y legible para representar datos, lo que facilita la comprensión y el mantenimiento del código.
+
+- [x] Compatibilidad: 
+      JSON es ampliamente compatible con diferentes lenguajes de programación y plataformas, lo que permite la interoperabilidad de sistemas y aplicaciones.
+      
+- [x] Soporte de librerías:
+      Existen numerosas librerías y herramientas que facilitan la manipulación y el procesamiento de datos en formato JSON, lo que agiliza el desarrollo de aplicaciones.
+
+Desventajas de utilizar código JSON:
+
+- [x] Sobrecarga de tamaño: JSON puede tener una sobrecarga de tamaño en comparación con otros formatos de datos más compactos como el binario. Esto puede afectar la eficiencia y el rendimiento en situaciones donde la velocidad de transmisión es crítica.
+
+- [x] Parsing y procesamiento: El análisis y procesamiento de datos JSON puede requerir más recursos computacionales en comparación con formatos de datos más simples, lo que puede afectar el rendimiento en dispositivos con recursos limitados.
+
+- [x] Limitaciones en la representación de tipos de datos complejos: JSON tiene limitaciones en la representación de tipos de datos complejos, como fechas, estructuras de datos anidadas o referencias, lo que puede requerir soluciones adicionales para abordar estas limitaciones.
+
+En general, JSON es ampliamente utilizado y es una opción popular para el intercambio de datos debido a su flexibilidad, compatibilidad y facilidad de uso. Sin embargo, es importante considerar las necesidades específicas del proyecto y evaluar si JSON es la mejor opción en términos de eficiencia, rendimiento y capacidad de representación de datos.
 
 
-Para el desarrollo de la actividad se realizaron consultas a las siguientes fuentes de informacion:
 
-- [ ] Material academico
-- [ ] Internet
-- [ ] Bibliografia especifica.
+
